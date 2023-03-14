@@ -6,7 +6,6 @@ import crud
 from exceptions import (
     SortMapNotFoundException,
     SortMapValueNotValidException,
-    MessageToEncryptNotValidException,
 )
 import time
 
