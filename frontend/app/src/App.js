@@ -27,7 +27,7 @@ function App() {
   }
 
   const getSortmaps = async () => {
-    const response = await fetch('http://localhost:8080/api/sortmaps_list', {
+    const response = await fetch('http://localhost:8000/api/sortmaps_list', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -42,7 +42,7 @@ function App() {
   };
 
   const createSortMap = async (value) => {
-    const response = await fetch('http://localhost:8080/api/sortmap', {
+    const response = await fetch('http://localhost:8000/api/sortmap', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ function App() {
   };
 
   const getSortMapById = async (id) => {
-    const response = await fetch(`http://localhost:8080/api/sortmaps?sortmap_id=${id}`, {
+    const response = await fetch(`http://localhost:8000/api/sortmaps?sortmap_id=${id}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -73,7 +73,7 @@ function App() {
   };
 
   const updateSortMap = async (id, value) => {
-    const response = await fetch(`http://localhost:8080/api/sortmap/${id}`, {
+    const response = await fetch(`http://localhost:8000/api/sortmap/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
@@ -89,7 +89,7 @@ function App() {
   };
 
   const deleteSortMap = async (id) => {
-    await fetch(`http://localhost:8080/api/sortmap/${id}`, {
+    await fetch(`http://localhost:8000/api/sortmap/${id}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',
@@ -99,7 +99,7 @@ function App() {
   };
 
   const encryptMessage = async (id, message) => {
-    const response = await fetch(`http://localhost:8080/api/order?sortmap_id=${id}`, {
+    const response = await fetch(`http://localhost:8000/api/order?sortmap_id=${id}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

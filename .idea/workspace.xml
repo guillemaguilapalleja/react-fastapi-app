@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b53fb98-54f2-4ece-8a38-e79ad74b84a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/app" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guill/PycharmProjects/fastApiProject3/schemas&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PyCharm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/guill/OneDrive/Escritorio/JUEGOS/react-fastapi-app",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\guill\PycharmProjects\fastApiProject3\schemas" />
@@ -49,11 +54,11 @@
       <recent name="C:\Users\guill\PycharmProjects\fastApiProject3\crud" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\guill\PycharmProjects\fastApiProject3\frontend\app" />
+      <recent name="C:\Users\guill\PycharmProjects\fastApiProject3\frontend" />
+      <recent name="C:\Users\guill\PycharmProjects\fastApiProject3" />
       <recent name="C:\Users\guill\PycharmProjects\fastApiProject3\frontend\app\src" />
       <recent name="C:\Users\guill\PycharmProjects\fastApiProject3\backend" />
-      <recent name="C:\Users\guill\PycharmProjects\fastApiProject3" />
-      <recent name="C:\Users\guill\PycharmProjects\fastApiProject3\schemas" />
-      <recent name="C:\Users\guill\PycharmProjects\fastApiProject3\routes" />
     </key>
   </component>
   <component name="RunManager">
@@ -82,7 +87,7 @@
       <updated>1678528963436</updated>
       <workItem from="1678528979663" duration="46749000" />
       <workItem from="1678717662963" duration="19213000" />
-      <workItem from="1678804432984" duration="10022000" />
+      <workItem from="1678804432984" duration="19443000" />
     </task>
     <servers />
   </component>
