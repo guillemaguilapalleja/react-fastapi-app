@@ -30,15 +30,3 @@ We have 2 ways of using the app: Executing the back-end and the front-end separa
 1) Run in the root of the project:
 
 `docker-compose up --build`
-
-## TESTS
-
-To run the tests of the back-end, you need to go to the tests folder:
-
-`cd backend/tests`
-
-And run:
-
-`pytest`
-
-
